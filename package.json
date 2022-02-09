@@ -1,0 +1,24 @@
+{
+  "name": "backend_assessment_blog_posts",
+  "version": "1.0.0",
+  "description": "Hatchways technical assessment for backend position",
+  "main": "./server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Frank Goshko",
+  "license": "ISC",
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "axios": "^0.25.0",
+    "chai": "^4.3.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
